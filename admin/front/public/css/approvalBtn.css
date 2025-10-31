@@ -1,0 +1,26 @@
+.approval-btns {
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.approve-btn, .reject-btn {
+  width: 70px;
+  height: 32px;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 12px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.approve-btn {
+  background-color: #006FFF;
+}
+
+.reject-btn {
+  background-color: #F44336;
+}

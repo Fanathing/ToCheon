@@ -1,0 +1,62 @@
+.awaiting-title {
+  padding: 20px 40px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.awaiting-column {
+  padding: 0 40px;
+}
+
+.awaiting-column > ul {
+  height: 36px;
+  font-size: 14px;
+  font-weight: 400px;
+  display: flex;
+  flex-direction: row;
+  background-color: #EFF1FA;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0 10px;
+  align-items: center;
+}
+.awaiting-column > ul > li {
+  display: flex;
+  justify-content: center;
+}
+/* 번호 */
+.awaiting-column > ul > :nth-child(1) {
+    width: 50px;
+}
+/* 유저 아이디 */
+.awaiting-column > ul > :nth-child(2) {
+    width: 150px;
+}
+/* 맛집 이름 */
+.awaiting-column > ul > :nth-child(3) {
+    width: 150px;
+}
+/* 주소 */
+.awaiting-column > ul > :nth-child(4) {
+    width: 250px;
+}
+/* 카테고리 */
+.awaiting-column > ul > :nth-child(5) {
+    width: 60px;
+}
+/* 설명 */
+.awaiting-column > ul > :nth-child(6) {
+    width: 200px;
+}
+/* 사진 등록 */
+.awaiting-column > ul > :nth-child(7) {
+    width: 250px;
+}
+/* 영업시간 */
+.awaiting-column > ul > :nth-child(8) {
+    width: 300px;
+}
+/* 승인관리 */
+.awaiting-column > ul > :nth-child(9) {
+    width: 250px;
+}

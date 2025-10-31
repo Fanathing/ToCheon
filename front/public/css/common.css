@@ -84,7 +84,7 @@ body {
     flex-direction: column;
     height: 100%;
     min-height: 100vh;
-    font-family: 'Pretendard', sans-serif;
+    font-family: 'Noto Sans KR';
 }
 
 main {
@@ -131,7 +131,6 @@ header > .header-left > .logo-icon {
 
 /* 버튼 색상 및 크기 */
 header > .header-right > button {
-    font-family: 'Pretendard';
     background-color: #FFFFFF;
     border: solid 1px #DFE6EB;
     border-radius: 6px;
@@ -157,10 +156,6 @@ footer {
     color: #555555;
     font-size: 15px;
     
-}
-
-footer > .footer-left {
-    font-family: 'Pretendard';
 }
 
 /* 개인정보처리방침, 이용약관, 문의하기 */

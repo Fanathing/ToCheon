@@ -1,0 +1,37 @@
+.dashboard-title {
+  
+  padding: 20px 40px;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.dashboard-card {
+  padding: 0 40px;
+}
+
+.dashboard-card > ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.dashboard-card > ul > li {
+  list-style: none;
+  width: 450px;
+  height: 104px;
+  border: 1px solid #D9D9D9;
+  border-radius: 8px;
+}
+
+.dashboard-card > ul > li > p {
+  padding: 10px 0 20px 20px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.dashboard-card > ul > li > span {
+  font-size: 30px;
+  font-weight: 700;
+  padding: 0 0 10px 20px;
+}

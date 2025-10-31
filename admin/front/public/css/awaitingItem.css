@@ -1,0 +1,107 @@
+/* ~~~~~승인 리스트들~~~~~ */
+
+
+/* 각 행 전체 */
+.awaiting-item {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-bottom: 1px solid #E1E1E1;
+  list-style: none;
+  height: 56px;
+  padding: 0 10px;
+  justify-content: space-between;
+
+}
+
+/* 호버되면 데이터행들 색이 바뀜 */
+.awaiting-item:hover {
+  background-color: #F8F8FF;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+}
+
+/* 호버될때 얘도 같이 호버배경색 바꿔서 모르게 하기 */
+.awaiting-item:hover input[name="storeId"] {
+  background-color: #F8F8FF; 
+  transition-duration: 0.2s;
+}
+
+
+/* 대기목록 정렬 */
+.awaiting-item > form {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.awaiting-item li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+/* 번호 */
+.awaiting-item input:nth-child(1) {
+  border-style: none;
+  text-align: center;
+  width: 50px;
+  outline: none;
+}
+
+/* 유저 아이디 */
+.awaiting-item li:nth-child(2) {
+  width: 150px;
+}
+
+/* 맛집 이름 */
+.awaiting-item li:nth-child(3) {
+  width: 150px;
+}
+
+/* 주소 */
+.awaiting-item li:nth-child(4) {
+  width: 250px;
+}
+
+/* 카테고리 */
+.awaiting-item li:nth-child(5) {
+  width: 60px;
+}
+
+/* 설명 */
+.awaiting-item li:nth-child(6) {
+  width: 200px;
+}
+
+/* 사진등록 */
+.awaiting-item input:nth-child(7) {
+  width: 250px;
+  height: 40px;
+  border: 1px solid #808080;
+  border-radius: 8px;
+  padding: 0 10px;
+  font-family: 'Noto Sans KR';
+}
+
+/* 영업시간 */
+.awaiting-item li:nth-child(8) {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.awaiting-item li:nth-child(8) input[type="time"] {
+  width: 145px;
+  border: 1px solid #808080;
+  border-radius: 8px;
+  height: 40px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Noto Sans KR';
+}

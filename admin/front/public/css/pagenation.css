@@ -1,0 +1,31 @@
+
+.pagination {
+  display: flex;
+  justify-content: end;
+  height: 42px;
+  margin-top: 20px;
+  gap: 10px;
+  padding: 0 40px;
+}
+.pagination > span {
+  color: #373940;
+}
+
+.pagination > a {
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F6F8FF;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.pagination > .on {
+  background-color: #006FFF;
+  color: #FFFFFF;
+}
